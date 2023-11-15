@@ -1,0 +1,9 @@
+1) npm init -y(package.json)
+2)npm i express (for installing  express library)
+3) npm i --save-dev nodemon(for restarting the server automatically)
+   change in the package.json
+   "scripts": {
+    "devStart": "nodemon server.js"
+  }
+  npm run devStart
+  npm i ejs
